@@ -1,0 +1,1626 @@
+---> Filter:
+1) This query counts the number of tasks for each project and prints the results.
+    Query:
+    from models_task.models import Project, Task
+    projects = Project.objects.all()
+    for project in projects:
+        task_count = Task.objects.filter(project=project).count()
+        print(f"Project: {project.title}, Number of Tasks: {task_count}")
+    
+    Result:
+Project: Horizontal fault-tolerant encoding, Number of Tasks: 0
+Project: Devolved transitional analyzer, Number of Tasks: 2
+Project: Innovative system-worthy service-desk, Number of Tasks: 2
+Project: Ergonomic intangible service-desk, Number of Tasks: 1
+Project: Organic static Internet solution, Number of Tasks: 0
+Project: Business-focused zero tolerance leverage 1, Number of Tasks: 2
+Project: Innovative modular matrices 2, Number of Tasks: 1
+Project: De-engineered transitional superstructure 3, Number of Tasks: 2
+Project: Enhanced user-facing complexity 4, Number of Tasks: 1
+Project: Operative 6thgeneration matrix 5, Number of Tasks: 2
+Project: Managed heuristic service-desk 6, Number of Tasks: 1
+Project: Multi-channeled actuating process improvement 7, Number of Tasks: 2
+Project: Visionary bandwidth-monitored framework 8, Number of Tasks: 1
+Project: Persevering 6thgeneration superstructure 9, Number of Tasks: 1
+Project: Monitored actuating access 10, Number of Tasks: 1
+Project: Reverse-engineered multimedia info-mediaries 11, Number of Tasks: 0
+Project: Configurable fault-tolerant circuit 12, Number of Tasks: 1
+Project: Organic composite extranet 13, Number of Tasks: 1
+Project: Programmable scalable knowledgebase 14, Number of Tasks: 1
+Project: Ameliorated directional implementation 15, Number of Tasks: 0
+Project: Polarized bandwidth-monitored moderator 16, Number of Tasks: 0
+Project: Quality-focused incremental monitoring 17, Number of Tasks: 1
+Project: Digitized attitude-oriented structure 18, Number of Tasks: 0
+Project: Cross-platform encompassing projection 19, Number of Tasks: 2
+Project: Face-to-face cohesive support 20, Number of Tasks: 1
+Project: Enterprise-wide mission-critical open system 21, Number of Tasks: 1
+Project: Multi-lateral solution-oriented challenge 22, Number of Tasks: 0
+Project: Assimilated secondary knowledgebase 23, Number of Tasks: 1
+Project: Open-source executive toolset 24, Number of Tasks: 1
+Project: Horizontal leadingedge initiative 25, Number of Tasks: 0
+Project: Universal fresh-thinking firmware 26, Number of Tasks: 1
+Project: Devolved incremental intranet 27, Number of Tasks: 1
+Project: Re-engineered object-oriented implementation 28, Number of Tasks: 1
+Project: Cross-platform discrete standardization 29, Number of Tasks: 0
+Project: Upgradable modular knowledgebase 30, Number of Tasks: 0
+Project: Cross-group demand-driven support 31, Number of Tasks: 1
+Project: Digitized motivating hub 32, Number of Tasks: 0
+Project: Mandatory multimedia Graphical User Interface 33, Number of Tasks: 3
+Project: Business-focused dynamic protocol 34, Number of Tasks: 0
+Project: Fundamental well-modulated capacity 35, Number of Tasks: 2
+Project: Synchronized attitude-oriented projection 36, Number of Tasks: 1
+Project: Implemented asynchronous policy 37, Number of Tasks: 0
+Project: Customer-focused optimal productivity 38, Number of Tasks: 4
+Project: Integrated dynamic functionalities 39, Number of Tasks: 0
+Project: Inverse next generation neural-net 40, Number of Tasks: 0
+Project: Exclusive next generation hierarchy 41, Number of Tasks: 1
+Project: User-friendly tangible approach 42, Number of Tasks: 0
+Project: Seamless stable hierarchy 43, Number of Tasks: 2
+Project: Decentralized 5thgeneration workforce 44, Number of Tasks: 1
+Project: Fully-configurable radical implementation 45, Number of Tasks: 2
+Project: Operative grid-enabled structure 46, Number of Tasks: 0
+Project: Reactive stable strategy 47, Number of Tasks: 1
+Project: Synchronized systemic paradigm 48, Number of Tasks: 0
+Project: Devolved context-sensitive ability 49, Number of Tasks: 1
+Project: Open-architected multi-tasking architecture 50, Number of Tasks: 1
+Project: Face-to-face clear-thinking throughput 51, Number of Tasks: 0
+Project: Cross-group impactful definition 52, Number of Tasks: 2
+Project: Switchable bottom-line application 53, Number of Tasks: 2
+Project: Assimilated value-added encryption 54, Number of Tasks: 0
+Project: Business-focused homogeneous forecast 55, Number of Tasks: 3
+Project: Profound analyzing architecture 56, Number of Tasks: 3
+Project: Multi-lateral directional support 57, Number of Tasks: 0
+Project: User-centric content-based circuit 58, Number of Tasks: 0
+Project: Managed incremental frame 59, Number of Tasks: 1
+Project: Switchable 6thgeneration groupware 60, Number of Tasks: 0
+Project: Extended multi-state software 61, Number of Tasks: 1
+Project: Exclusive hybrid matrix 62, Number of Tasks: 0
+Project: Secured discrete application 63, Number of Tasks: 0
+Project: Reverse-engineered real-time open system 64, Number of Tasks: 1
+Project: Optimized secondary Local Area Network 65, Number of Tasks: 1
+Project: Implemented optimal capacity 66, Number of Tasks: 2
+Project: Proactive neutral portal 67, Number of Tasks: 2
+Project: Extended background leverage 68, Number of Tasks: 0
+Project: Realigned object-oriented superstructure 69, Number of Tasks: 2
+Project: Grass-roots bi-directional intranet 70, Number of Tasks: 0
+Project: Visionary tangible architecture 71, Number of Tasks: 0
+Project: Profound regional matrices 72, Number of Tasks: 0
+Project: Progressive bi-directional analyzer 73, Number of Tasks: 0
+Project: Decentralized coherent open architecture 74, Number of Tasks: 1
+Project: Right-sized fault-tolerant initiative 75, Number of Tasks: 1
+Project: Front-line multimedia ability 76, Number of Tasks: 1
+Project: Decentralized human-resource initiative 77, Number of Tasks: 4
+Project: Switchable homogeneous support 78, Number of Tasks: 0
+Project: Customer-focused cohesive customer loyalty 79, Number of Tasks: 0
+Project: Distributed 3rdgeneration neural-net 80, Number of Tasks: 0
+Project: Compatible maximized open system 81, Number of Tasks: 0
+Project: Cross-group client-driven installation 82, Number of Tasks: 0
+Project: Synergized bandwidth-monitored data-warehouse 83, Number of Tasks: 2
+Project: Visionary logistical workforce 84, Number of Tasks: 0
+Project: Realigned leadingedge framework 85, Number of Tasks: 4
+Project: Face-to-face next generation model 86, Number of Tasks: 2
+Project: Exclusive multi-tasking hierarchy 87, Number of Tasks: 0
+Project: Persistent empowering workforce 88, Number of Tasks: 2
+Project: Realigned multi-tasking productivity 89, Number of Tasks: 3
+Project: Networked multi-state synergy 90, Number of Tasks: 1
+Project: Grass-roots intermediate architecture 91, Number of Tasks: 1
+Project: Exclusive 4thgeneration capacity 92, Number of Tasks: 2
+Project: Profound exuding service-desk 93, Number of Tasks: 3
+Project: Right-sized multi-state help-desk 94, Number of Tasks: 0
+Project: Public-key impactful implementation 95, Number of Tasks: 0
+Project: Up-sized zero-defect open system 96, Number of Tasks: 1
+Project: Total grid-enabled success 97, Number of Tasks: 1
+Project: Virtual dynamic success 98, Number of Tasks: 0
+Project: Triple-buffered user-facing benchmark 99, Number of Tasks: 0
+Project: Virtual bottom-line system engine 100, Number of Tasks: 0
+Project: Versatile uniform data-warehouse 101, Number of Tasks: 1
+Project: Focused multi-tasking capability 102, Number of Tasks: 0
+Project: Down-sized object-oriented Local Area Network 103, Number of Tasks: 0
+Project: Adaptive didactic framework 104, Number of Tasks: 0
+Project: Vision-oriented user-facing task-force 105, Number of Tasks: 0
+Project: Re-contextualized logistical model 106, Number of Tasks: 1
+Project: Self-enabling client-driven synergy 107, Number of Tasks: 0
+Project: Extended regional array 108, Number of Tasks: 0
+Project: Persevering heuristic complexity 109, Number of Tasks: 0
+Project: Profound heuristic product 110, Number of Tasks: 2
+Project: Quality-focused 4thgeneration contingency 111, Number of Tasks: 0
+Project: Multi-lateral asymmetric pricing structure 112, Number of Tasks: 1
+Project: Upgradable user-facing architecture 113, Number of Tasks: 1
+Project: Organic well-modulated benchmark 114, Number of Tasks: 1
+Project: Profit-focused disintermediate time-frame 115, Number of Tasks: 1
+Project: Persistent zero tolerance interface 116, Number of Tasks: 1
+Project: Programmable demand-driven hardware 117, Number of Tasks: 2
+Project: Customer-focused explicit open architecture 118, Number of Tasks: 2
+Project: Programmable foreground open architecture 119, Number of Tasks: 2
+Project: Robust actuating superstructure 120, Number of Tasks: 0
+Project: Proactive needs-based architecture 121, Number of Tasks: 0
+Project: Face-to-face homogeneous data-warehouse 122, Number of Tasks: 0
+Project: Focused didactic extranet 123, Number of Tasks: 2
+Project: Balanced human-resource strategy 124, Number of Tasks: 0
+Project: Focused radical superstructure 125, Number of Tasks: 2
+Project: Visionary clear-thinking challenge 126, Number of Tasks: 0
+Project: Sharable 3rdgeneration standardization 127, Number of Tasks: 2
+Project: Optimized optimal extranet 128, Number of Tasks: 0
+Project: Up-sized optimizing contingency 129, Number of Tasks: 1
+Project: Programmable upward-trending utilization 130, Number of Tasks: 0
+Project: Compatible fresh-thinking portal 131, Number of Tasks: 0
+Project: Re-engineered asynchronous capability 132, Number of Tasks: 0
+Project: Innovative motivating portal 133, Number of Tasks: 3
+Project: Managed composite open system 134, Number of Tasks: 2
+Project: Proactive bifurcated application 135, Number of Tasks: 0
+Project: Optional clear-thinking utilization 136, Number of Tasks: 1
+Project: Distributed interactive extranet 137, Number of Tasks: 0
+Project: Assimilated fault-tolerant contingency 138, Number of Tasks: 2
+Project: Streamlined optimal product 139, Number of Tasks: 3
+Project: Sharable 24hour utilization 140, Number of Tasks: 1
+Project: Streamlined maximized core 141, Number of Tasks: 1
+Project: Optional bi-directional definition 142, Number of Tasks: 1
+Project: Universal 5thgeneration database 143, Number of Tasks: 3
+Project: Adaptive bifurcated synergy 144, Number of Tasks: 5
+Project: Decentralized tertiary data-warehouse 145, Number of Tasks: 0
+Project: Adaptive didactic analyzer 146, Number of Tasks: 2
+Project: Secured high-level secured line 147, Number of Tasks: 1
+Project: Up-sized web-enabled neural-net 148, Number of Tasks: 0
+Project: Secured attitude-oriented projection 149, Number of Tasks: 0
+Project: Polarized even-keeled toolset 150, Number of Tasks: 2
+Project: Right-sized zero administration benchmark 151, Number of Tasks: 2
+Project: Open-source needs-based throughput 152, Number of Tasks: 2
+Project: Reverse-engineered interactive task-force 153, Number of Tasks: 0
+Project: Team-oriented grid-enabled utilization 154, Number of Tasks: 1
+Project: Virtual holistic software 155, Number of Tasks: 2
+Project: Profit-focused 24hour database 156, Number of Tasks: 1
+Project: Intuitive 3rdgeneration capability 157, Number of Tasks: 1
+Project: Virtual dynamic moderator 158, Number of Tasks: 1
+Project: Mandatory needs-based secured line 159, Number of Tasks: 1
+Project: Public-key clear-thinking hierarchy 160, Number of Tasks: 0
+Project: Intuitive real-time hub 161, Number of Tasks: 1
+Project: Distributed leadingedge knowledgebase 162, Number of Tasks: 0
+Project: User-centric real-time Graphical User Interface 163, Number of Tasks: 1
+Project: Devolved optimizing knowledgebase 164, Number of Tasks: 2
+Project: Decentralized optimizing monitoring 165, Number of Tasks: 2
+Project: Sharable web-enabled emulation 166, Number of Tasks: 2
+Project: Multi-lateral 24/7 neural-net 167, Number of Tasks: 1
+Project: Managed impactful core 168, Number of Tasks: 1
+Project: Innovative logistical leverage 169, Number of Tasks: 1
+Project: Distributed bottom-line architecture 170, Number of Tasks: 1
+Project: Multi-layered human-resource policy 171, Number of Tasks: 0
+Project: Enhanced exuding synergy 172, Number of Tasks: 1
+Project: Mandatory attitude-oriented matrix 173, Number of Tasks: 2
+Project: Secured modular secured line 174, Number of Tasks: 1
+Project: Expanded eco-centric budgetary management 175, Number of Tasks: 2
+Project: Multi-channeled cohesive middleware 176, Number of Tasks: 0
+Project: Cross-platform even-keeled utilization 177, Number of Tasks: 1
+Project: Proactive bi-directional neural-net 178, Number of Tasks: 1
+Project: Persistent logistical help-desk 179, Number of Tasks: 0
+Project: Right-sized bifurcated leverage 180, Number of Tasks: 0
+Project: User-friendly user-facing superstructure 181, Number of Tasks: 1
+Project: Monitored exuding definition 182, Number of Tasks: 1
+Project: Reverse-engineered bandwidth-monitored array 183, Number of Tasks: 0
+Project: Triple-buffered 6thgeneration success 184, Number of Tasks: 0
+Project: Re-contextualized dynamic Local Area Network 185, Number of Tasks: 2
+Project: Public-key 4thgeneration function 186, Number of Tasks: 2
+Project: Team-oriented optimizing structure 187, Number of Tasks: 1
+Project: Quality-focused asymmetric extranet 188, Number of Tasks: 1
+Project: Automated directional data-warehouse 189, Number of Tasks: 0
+Project: Realigned client-driven structure 190, Number of Tasks: 0
+Project: Switchable stable methodology 191, Number of Tasks: 6
+Project: Balanced user-facing neural-net 192, Number of Tasks: 0
+Project: Organized stable support 193, Number of Tasks: 2
+Project: Reverse-engineered intermediate time-frame 194, Number of Tasks: 2
+Project: Intuitive optimizing system engine 195, Number of Tasks: 1
+Project: Realigned fresh-thinking policy 196, Number of Tasks: 1
+Project: Monitored systemic intranet 197, Number of Tasks: 1
+Project: Progressive intermediate throughput 198, Number of Tasks: 1
+Project: Versatile modular installation 199, Number of Tasks: 0
+Project: Reactive attitude-oriented knowledgebase 200, Number of Tasks: 2
+Project: Cross-platform solution-oriented Local Area Network 1, Number of Tasks: 1
+Project: Programmable uniform support 2, Number of Tasks: 0
+Project: Synergistic 6thgeneration paradigm 3, Number of Tasks: 1
+Project: Multi-tiered system-worthy budgetary management 4, Number of Tasks: 1
+Project: Programmable mission-critical portal 5, Number of Tasks: 2
+
+
+2)This query retrives all the managers
+Query: 
+from models_task.models import Profile
+managers = Profile.objects.filter(role='manager')
+print(managers)
+
+Result:
+<QuerySet [<Profile: xavier04 - Project Manager>, <Profile: bmccarthy - Project Manager>, <Profile: mark51 - Project Manager>, <Profile: mmartinez - Project Manager>, <Profile: joelhess - Project Manager>, <Profile: vanessa54 - Project Manager>, <Profile: harriscynthia - Project Manager>, <Profile: zestes - Project Manager>, <Profile: garnerchristopher - Project Manager>, <Profile: kross - Project Manager>, <Profile: bakeralexander - Project Manager>, <Profile: nscott - Project Manager>, <Profile: stephanie69 - Project Manager>, <Profile: marissaroman - Project Manager>, <Profile: jennifer10 - Project Manager>, <Profile: joshua06 - Project Manager>, <Profile: sglenn - Project Manager>, <Profile: hensleyjennifer - Project Manager>, <Profile: eric35 - Project Manager>, <Profile: amandamckenzie - Project Manager>, '...(remaining elements truncated)...']>
+
+--------------------------------------------
+
+----> exclude
+1) This query excludes profiles with the role of 'manager' and prints the remaining profiles.
+Query:
+from models_task.models import Profile
+non_managers = Profile.objects.exclude(role='manager')
+print("Profiles Excluding Managers:")
+for profile in non_managers:
+    print(f"User: {profile.user.username}, Role: {profile.role}")
+
+Result:
+User: joshuatorres, Role: product_owner
+User: hallduane, Role: product_owner
+User: karenmartin, Role: designer
+User: robert70, Role: product_owner
+User: billy17, Role: developer
+User: luismay, Role: designer
+User: ygraves, Role: developer
+User: chasedarryl, Role: product_owner
+User: antonionelson, Role: product_owner
+User: ovasquez, Role: product_owner
+User: joshua18, Role: designer
+User: keithholder, Role: qa
+User: david67, Role: product_owner
+User: elizabeth04, Role: developer
+User: sarahmejia, Role: qa
+User: holly32, Role: developer
+User: moranbrenda, Role: product_owner
+User: marissafletcher, Role: developer
+User: jensengregory, Role: designer
+User: sharonlee, Role: product_owner
+User: ksheppard, Role: qa
+User: cody76, Role: developer
+User: sanchezmorgan, Role: designer
+User: taylorbeck, Role: qa
+User: woodjoseph, Role: qa
+User: gsmith, Role: product_owner
+User: christopherhowell, Role: designer
+User: gordonmisty, Role: developer
+User: anthonyholland, Role: designer
+User: branchamy, Role: product_owner
+User: thill, Role: product_owner
+User: gcarter, Role: developer
+User: angelaroberts, Role: qa
+User: bentonnicole, Role: developer
+User: scotttina, Role: designer
+User: susan10, Role: developer
+User: marie91, Role: product_owner
+User: andre48, Role: developer
+User: alec13, Role: developer
+User: john73, Role: developer
+User: pcalderon, Role: product_owner
+User: harrisonjessica, Role: qa
+User: bradley55, Role: developer
+User: murphycarrie, Role: developer
+User: gmcgee, Role: designer
+User: turnerjacob, Role: developer
+User: philipkelly, Role: developer
+User: wflores, Role: qa
+User: ydavila, Role: product_owner
+User: nelsonscott, Role: developer
+User: amarsh, Role: developer
+User: samantha40, Role: developer
+User: carrollthomas, Role: designer
+User: fsteele, Role: product_owner
+User: coxmelissa, Role: designer
+User: piercedavid, Role: developer
+User: hwright, Role: qa
+User: rebecca67, Role: developer
+User: amanda47, Role: product_owner
+User: srichard, Role: product_owner
+User: sflores, Role: developer
+User: nicolehernandez, Role: designer
+User: jonesmonique, Role: product_owner
+User: james31, Role: developer
+User: lamleah, Role: developer
+User: swansonjorge, Role: designer
+User: sarahodge, Role: qa
+User: webberika, Role: designer
+User: bjones, Role: product_owner
+User: gduncan, Role: designer
+User: patricia34, Role: designer
+User: contrerasmelanie, Role: product_owner
+User: carpenterjustin, Role: qa
+User: petersonphyllis, Role: product_owner
+User: sharding, Role: designer
+User: kayla57, Role: developer
+User: qgrimes, Role: developer
+User: theresa13, Role: qa
+User: alexander23, Role: qa
+User: michael49, Role: developer
+User: sabrinalarson, Role: developer
+User: greenpaul, Role: designer
+User: dennisduran, Role: developer
+User: jacquelinewilliams, Role: designer
+User: mcfarlandjennifer, Role: product_owner
+User: scottjenkins, Role: qa
+User: jamespatterson, Role: qa
+User: dmyers, Role: qa
+User: chris14, Role: product_owner
+User: shannon68, Role: developer
+User: zwilson, Role: developer
+User: lindseyblackburn, Role: designer
+User: melissa42, Role: product_owner
+User: randy60, Role: qa
+User: nguyenjeffrey, Role: qa
+User: petersenamanda, Role: designer
+User: mcmahonkaren, Role: product_owner
+User: hdeleon, Role: developer
+User: riosstephen, Role: qa
+User: reyespatricia, Role: developer
+User: vrobinson, Role: designer
+User: tiffany07, Role: developer
+User: normanmichelle, Role: designer
+User: kristopherkelly, Role: product_owner
+User: davidthompson, Role: designer
+User: nelsonbrandon, Role: qa
+User: matthewwright, Role: product_owner
+User: carriejones, Role: designer
+User: flemingkaren, Role: qa
+User: juarezjustin, Role: designer
+User: francisbridges, Role: product_owner
+User: james62, Role: product_owner
+User: foxmatthew, Role: product_owner
+User: cathy83, Role: developer
+User: obrienwilliam, Role: qa
+User: katherinerobinson, Role: developer
+User: ashley28, Role: qa
+User: nancyschneider, Role: designer
+User: tylerfoster, Role: qa
+User: nicole65, Role: qa
+User: michaelrivera, Role: qa
+User: tammywillis, Role: qa
+User: madison21, Role: product_owner
+User: qlogan, Role: designer
+User: xchavez, Role: product_owner
+User: kevin48, Role: product_owner
+User: kevin00, Role: developer
+User: kylecardenas, Role: designer
+User: hoffmanjanet, Role: qa
+User: jscott, Role: qa
+User: elizabethmitchell, Role: designer
+User: james23, Role: developer
+User: trananthony, Role: designer
+User: xmorgan, Role: qa
+User: wperez, Role: product_owner
+User: paynemichael, Role: qa
+User: kristinhaynes, Role: product_owner
+User: tammy23, Role: designer
+User: scottfisher, Role: qa
+User: joanna29, Role: developer
+User: ashleywhite, Role: product_owner
+User: julia05, Role: developer
+User: eclark, Role: product_owner
+User: christophersalazar, Role: qa
+User: kwashington, Role: developer
+User: john52, Role: developer
+User: kathryn88, Role: developer
+User: omiranda, Role: developer
+User: qchambers, Role: product_owner
+User: gwilson, Role: designer
+User: matthewsnoah, Role: product_owner
+User: tracywilliamson, Role: product_owner
+User: lsimmons, Role: qa
+User: jason73, Role: designer
+User: sscott, Role: qa
+User: qsmith, Role: qa
+User: jonesmonica7553, Role: product_owner
+User: michaelanderson3785, Role: developer
+User: uzuniga7998, Role: designer
+User: wbennett6230, Role: designer
+User: robertwarren6417, Role: product_owner
+User: cbrown9539, Role: developer
+User: nicole764396, Role: developer
+User: hsingh0911, Role: product_owner
+User: abell2590, Role: developer
+User: xhill8494, Role: developer
+User: caleb968908, Role: designer
+User: gsanchez3349, Role: product_owner
+User: ivelez1390, Role: qa
+User: alyssacastro8241, Role: developer
+User: tina547927, Role: qa
+User: kaitlynrobinson0610, Role: developer
+User: leewendy2762, Role: product_owner
+User: yoliver7754, Role: designer
+User: vincent456960, Role: product_owner
+User: markjohnson2511, Role: product_owner
+User: ataylor3300, Role: designer
+User: gsimmons0281, Role: product_owner
+User: roberthughes0315, Role: designer
+User: odonnellemily2306, Role: qa
+User: gallagherashley6143, Role: qa
+User: hulljennifer8791, Role: product_owner
+User: cmyers1649, Role: qa
+User: carllynch2829, Role: product_owner
+User: eadams1462, Role: product_owner
+User: karen837361, Role: product_owner
+User: ronaldwhite1011, Role: qa
+User: amanda294160, Role: developer
+User: dennishall0816, Role: qa
+User: davidsmith6943, Role: developer
+User: ruizdavid1840, Role: designer
+User: kristin685113, Role: qa
+User: qsmith7221, Role: developer
+User: connorsmith9361, Role: product_owner
+User: lauramyers1316, Role: designer
+User: evansmolly2611, Role: qa
+User: qmiller0126, Role: product_owner
+User: ryandixon7082, Role: product_owner
+User: robertdonovan4413, Role: qa
+User: williamsbrian2756, Role: developer
+User: michael857297, Role: product_owner
+User: nmoore5209, Role: developer
+User: johncarroll0803, Role: developer
+User: adamssusan7099, Role: product_owner
+User: estradachristopher7242, Role: designer
+User: duncansarah0748, Role: product_owner
+User: umartin7647, Role: designer
+User: davidwebb6200, Role: qa
+User: uwashington4753, Role: designer
+User: brandon498877, Role: designer
+User: gregory966652, Role: developer
+User: qwalker7774, Role: qa
+User: catherine496504, Role: developer
+User: kramerjason6366, Role: developer
+User: amandaramirez0273, Role: designer
+User: xwilliams8559, Role: product_owner
+User: phowell2940, Role: designer
+User: xhooper5075, Role: qa
+User: whitealyssa9368, Role: qa
+User: mstewart1838, Role: qa
+User: mcguireeric5467, Role: qa
+User: brucejohnson4355, Role: product_owner
+User: ispencer7499, Role: qa
+User: gerald564693, Role: developer
+User: heather334142, Role: product_owner
+User: dwilliams3126, Role: qa
+User: heathercompton1270, Role: qa
+User: cherylgoodwin6768, Role: designer
+User: murphykathryn3872, Role: product_owner
+User: bwilliams0794, Role: developer
+User: ayerselizabeth1427, Role: qa
+User: julie254838, Role: developer
+User: jodijones8275, Role: product_owner
+User: jordanrebecca6149, Role: qa
+User: zbutler3588, Role: developer
+User: xdiaz7657, Role: product_owner
+User: orodriguez1573, Role: qa
+User: nathanwashington3715, Role: qa
+User: brownamy4523, Role: product_owner
+User: danielstephens5908, Role: developer
+User: gharvey7632, Role: designer
+User: lynchkenneth3177, Role: qa
+User: catherinechen7648, Role: qa
+User: greendebra9724, Role: product_owner
+User: williamsdaniel7630, Role: product_owner
+User: joshuawiggins8044, Role: designer
+User: zharris0140, Role: product_owner
+User: ronaldjames0372, Role: developer
+User: patrickaaron3900, Role: qa
+User: paulalewis4905, Role: designer
+User: sclarke4937, Role: product_owner
+User: steve741558, Role: qa
+User: rkim7724, Role: product_owner
+User: kanekaren1947, Role: designer
+User: toddwhite9662, Role: designer
+User: morenojose4733, Role: developer
+User: brownkathleen9742, Role: product_owner
+User: catherinebaker9450, Role: designer
+User: samanthastewart2483, Role: qa
+User: hallbelinda5117, Role: qa
+User: elizabethfitzgerald8744, Role: qa
+User: freemancathy7477, Role: developer
+User: hschaefer2827, Role: developer
+User: lcoleman2426, Role: designer
+User: ysmith9205, Role: product_owner
+User: durhamkyle9092, Role: developer
+User: ldixon8336, Role: product_owner
+User: wchandler8456, Role: developer
+User: knappsusan7516, Role: product_owner
+User: steven775179, Role: product_owner
+User: oliviadixon7224, Role: designer
+User: danielflores8051, Role: product_owner
+User: colejohn9694, Role: designer
+User: jenniferaguirre3439, Role: developer
+User: williambates2952, Role: designer
+User: chanfelicia0636, Role: product_owner
+User: griffithcheyenne8151, Role: designer
+User: andersonwalter6087, Role: designer
+User: ericaraymond0550, Role: product_owner
+User: perkinslogan7815, Role: qa
+User: julie755449, Role: product_owner
+User: adam360049, Role: qa
+User: jacqueline144354, Role: designer
+User: gchen8292, Role: qa
+User: jeanwagner4180, Role: qa
+User: popesabrina2220, Role: qa
+User: fmiller1447, Role: qa
+User: opowers5740, Role: designer
+User: obrooks9544, Role: designer
+User: patrickharvey9918, Role: designer
+User: christinabrown3985, Role: developer
+User: grojas2369, Role: designer
+User: michaelporter1462, Role: product_owner
+User: grantsarah0469, Role: qa
+User: jamiedavis6062, Role: product_owner
+User: alanvalencia4035, Role: product_owner
+User: cindyschmidt7876, Role: product_owner
+User: robertlang0431, Role: qa
+User: boonecheryl9535, Role: designer
+User: tingram3058, Role: designer
+User: alvarezhaley1255, Role: qa
+User: laura721986, Role: qa
+User: angelperez1139, Role: designer
+User: michael389965, Role: developer
+User: kellyvictoria2386, Role: developer
+User: emilyheath1458, Role: developer
+User: josephjeffrey1799, Role: qa
+User: erinalexander4394, Role: qa
+User: jeffrey670271, Role: developer
+User: jonessharon5464, Role: product_owner
+User: michelemedina5513, Role: designer
+User: xhoffman6223, Role: designer
+User: sarahboyd0246, Role: developer
+User: jessebailey7502, Role: designer
+
+2) This excludes projects that include a specific user as a team member.
+Query:
+>>> from models_task.models import Project, User
+>>> user_to_exclude = User.objects.get(username='xdiaz7657')
+>>> 
+>>> projects_without_user = Project.objects.exclude(team_members=user_to_exclude)
+>>> for project in projects_without_user:
+...         print(f"Project: {project.title}")
+
+
+Result:
+Project: Horizontal fault-tolerant encoding
+Project: Devolved transitional analyzer
+Project: Innovative system-worthy service-desk
+Project: Ergonomic intangible service-desk
+Project: Organic static Internet solution
+Project: Business-focused zero tolerance leverage 1
+Project: Innovative modular matrices 2
+Project: De-engineered transitional superstructure 3
+Project: Enhanced user-facing complexity 4
+Project: Operative 6thgeneration matrix 5
+Project: Managed heuristic service-desk 6
+Project: Multi-channeled actuating process improvement 7
+Project: Visionary bandwidth-monitored framework 8
+Project: Persevering 6thgeneration superstructure 9
+Project: Monitored actuating access 10
+Project: Reverse-engineered multimedia info-mediaries 11
+Project: Configurable fault-tolerant circuit 12
+Project: Organic composite extranet 13
+Project: Programmable scalable knowledgebase 14
+Project: Ameliorated directional implementation 15
+Project: Polarized bandwidth-monitored moderator 16
+Project: Quality-focused incremental monitoring 17
+Project: Digitized attitude-oriented structure 18
+Project: Cross-platform encompassing projection 19
+Project: Face-to-face cohesive support 20
+Project: Enterprise-wide mission-critical open system 21
+Project: Multi-lateral solution-oriented challenge 22
+Project: Assimilated secondary knowledgebase 23
+Project: Open-source executive toolset 24
+Project: Horizontal leadingedge initiative 25
+Project: Universal fresh-thinking firmware 26
+Project: Devolved incremental intranet 27
+Project: Re-engineered object-oriented implementation 28
+Project: Cross-platform discrete standardization 29
+Project: Upgradable modular knowledgebase 30
+Project: Cross-group demand-driven support 31
+Project: Digitized motivating hub 32
+Project: Mandatory multimedia Graphical User Interface 33
+Project: Business-focused dynamic protocol 34
+Project: Fundamental well-modulated capacity 35
+Project: Implemented asynchronous policy 37
+Project: Customer-focused optimal productivity 38
+Project: Integrated dynamic functionalities 39
+Project: Inverse next generation neural-net 40
+Project: Exclusive next generation hierarchy 41
+Project: User-friendly tangible approach 42
+Project: Seamless stable hierarchy 43
+Project: Decentralized 5thgeneration workforce 44
+Project: Fully-configurable radical implementation 45
+Project: Operative grid-enabled structure 46
+Project: Reactive stable strategy 47
+Project: Synchronized systemic paradigm 48
+Project: Devolved context-sensitive ability 49
+Project: Open-architected multi-tasking architecture 50
+Project: Face-to-face clear-thinking throughput 51
+Project: Cross-group impactful definition 52
+Project: Switchable bottom-line application 53
+Project: Assimilated value-added encryption 54
+Project: Business-focused homogeneous forecast 55
+Project: Profound analyzing architecture 56
+Project: Multi-lateral directional support 57
+Project: User-centric content-based circuit 58
+Project: Managed incremental frame 59
+Project: Switchable 6thgeneration groupware 60
+Project: Extended multi-state software 61
+Project: Exclusive hybrid matrix 62
+Project: Secured discrete application 63
+Project: Reverse-engineered real-time open system 64
+Project: Optimized secondary Local Area Network 65
+Project: Implemented optimal capacity 66
+Project: Extended background leverage 68
+Project: Realigned object-oriented superstructure 69
+Project: Grass-roots bi-directional intranet 70
+Project: Visionary tangible architecture 71
+Project: Profound regional matrices 72
+Project: Progressive bi-directional analyzer 73
+Project: Decentralized coherent open architecture 74
+Project: Right-sized fault-tolerant initiative 75
+Project: Front-line multimedia ability 76
+Project: Decentralized human-resource initiative 77
+Project: Switchable homogeneous support 78
+Project: Customer-focused cohesive customer loyalty 79
+Project: Distributed 3rdgeneration neural-net 80
+Project: Compatible maximized open system 81
+Project: Cross-group client-driven installation 82
+Project: Synergized bandwidth-monitored data-warehouse 83
+Project: Visionary logistical workforce 84
+Project: Realigned leadingedge framework 85
+Project: Face-to-face next generation model 86
+Project: Exclusive multi-tasking hierarchy 87
+Project: Persistent empowering workforce 88
+Project: Realigned multi-tasking productivity 89
+Project: Networked multi-state synergy 90
+Project: Grass-roots intermediate architecture 91
+Project: Exclusive 4thgeneration capacity 92
+Project: Profound exuding service-desk 93
+Project: Right-sized multi-state help-desk 94
+Project: Public-key impactful implementation 95
+Project: Up-sized zero-defect open system 96
+Project: Total grid-enabled success 97
+Project: Virtual dynamic success 98
+Project: Triple-buffered user-facing benchmark 99
+Project: Virtual bottom-line system engine 100
+Project: Versatile uniform data-warehouse 101
+Project: Focused multi-tasking capability 102
+Project: Down-sized object-oriented Local Area Network 103
+Project: Adaptive didactic framework 104
+Project: Vision-oriented user-facing task-force 105
+Project: Re-contextualized logistical model 106
+Project: Self-enabling client-driven synergy 107
+Project: Extended regional array 108
+Project: Persevering heuristic complexity 109
+Project: Profound heuristic product 110
+Project: Quality-focused 4thgeneration contingency 111
+Project: Multi-lateral asymmetric pricing structure 112
+Project: Upgradable user-facing architecture 113
+Project: Organic well-modulated benchmark 114
+Project: Profit-focused disintermediate time-frame 115
+Project: Persistent zero tolerance interface 116
+Project: Programmable demand-driven hardware 117
+Project: Programmable foreground open architecture 119
+Project: Robust actuating superstructure 120
+Project: Proactive needs-based architecture 121
+Project: Face-to-face homogeneous data-warehouse 122
+Project: Focused didactic extranet 123
+Project: Balanced human-resource strategy 124
+Project: Focused radical superstructure 125
+Project: Visionary clear-thinking challenge 126
+Project: Sharable 3rdgeneration standardization 127
+Project: Optimized optimal extranet 128
+Project: Up-sized optimizing contingency 129
+Project: Programmable upward-trending utilization 130
+Project: Compatible fresh-thinking portal 131
+Project: Re-engineered asynchronous capability 132
+Project: Innovative motivating portal 133
+Project: Managed composite open system 134
+Project: Proactive bifurcated application 135
+Project: Optional clear-thinking utilization 136
+Project: Assimilated fault-tolerant contingency 138
+Project: Streamlined optimal product 139
+Project: Sharable 24hour utilization 140
+Project: Streamlined maximized core 141
+Project: Optional bi-directional definition 142
+Project: Adaptive bifurcated synergy 144
+Project: Decentralized tertiary data-warehouse 145
+Project: Adaptive didactic analyzer 146
+Project: Secured high-level secured line 147
+Project: Up-sized web-enabled neural-net 148
+Project: Secured attitude-oriented projection 149
+Project: Polarized even-keeled toolset 150
+Project: Right-sized zero administration benchmark 151
+Project: Open-source needs-based throughput 152
+Project: Reverse-engineered interactive task-force 153
+Project: Team-oriented grid-enabled utilization 154
+Project: Virtual holistic software 155
+Project: Profit-focused 24hour database 156
+Project: Intuitive 3rdgeneration capability 157
+Project: Virtual dynamic moderator 158
+Project: Mandatory needs-based secured line 159
+Project: Public-key clear-thinking hierarchy 160
+Project: Intuitive real-time hub 161
+Project: Distributed leadingedge knowledgebase 162
+Project: User-centric real-time Graphical User Interface 163
+Project: Devolved optimizing knowledgebase 164
+Project: Decentralized optimizing monitoring 165
+Project: Sharable web-enabled emulation 166
+Project: Multi-lateral 24/7 neural-net 167
+Project: Innovative logistical leverage 169
+Project: Distributed bottom-line architecture 170
+Project: Multi-layered human-resource policy 171
+Project: Enhanced exuding synergy 172
+Project: Mandatory attitude-oriented matrix 173
+Project: Secured modular secured line 174
+Project: Expanded eco-centric budgetary management 175
+Project: Cross-platform even-keeled utilization 177
+Project: Proactive bi-directional neural-net 178
+Project: Persistent logistical help-desk 179
+Project: Right-sized bifurcated leverage 180
+Project: User-friendly user-facing superstructure 181
+Project: Monitored exuding definition 182
+Project: Reverse-engineered bandwidth-monitored array 183
+Project: Triple-buffered 6thgeneration success 184
+Project: Re-contextualized dynamic Local Area Network 185
+Project: Public-key 4thgeneration function 186
+Project: Team-oriented optimizing structure 187
+Project: Quality-focused asymmetric extranet 188
+Project: Automated directional data-warehouse 189
+Project: Realigned client-driven structure 190
+Project: Switchable stable methodology 191
+Project: Balanced user-facing neural-net 192
+Project: Organized stable support 193
+Project: Reverse-engineered intermediate time-frame 194
+Project: Intuitive optimizing system engine 195
+Project: Realigned fresh-thinking policy 196
+Project: Monitored systemic intranet 197
+Project: Progressive intermediate throughput 198
+Project: Versatile modular installation 199
+Project: Reactive attitude-oriented knowledgebase 200
+Project: Cross-platform solution-oriented Local Area Network 1
+Project: Programmable uniform support 2
+Project: Synergistic 6thgeneration paradigm 3
+Project: Multi-tiered system-worthy budgetary management 4
+Project: Programmable mission-critical portal 5
+---------------------------------------------------------------------------------------------------
+
+
+
+
+---> annotate
+1) annotates each profile with the number of comments made by users.
+Query
+>>> from models_task.models import Project
+>>> from django.db.models import Count
+>>> projects_with_comment_counts = Project.objects.annotate(comment_count=Count('comments'))
+>>> for project in projects_with_comment_counts:
+...         print(f"Project: {project.title}, Comment Count: {project.comment_count}")
+... 
+
+
+
+2) annotates projects with the count of team members.
+Query:
+>>> from models_task.models import Project
+>>> from django.db.models import Count
+>>> projects_with_team_member_counts = Project.objects.annotate(team_member_count=Count('team_members'))
+>>> for project in projects_with_team_member_counts:
+...         print(f"Project: {project.title}, Team Member Count: {project.team_member_count}")
+... 
+
+
+----------------------------------------------------------------------------
+
+
+
+---> order_by
+1) ordering projects by the number of comments (in descending order)
+
+Query:
+>>> from models_task.models import Project
+>>> from django.db.models import Count
+>>> projects_ordered_by_comment_count = Project.objects.annotate(    num_comments=Count('comments')).order_by('-num_comments')
+>>> print("Projects ordered by Number of Comments (desc):")
+Projects ordered by Number of Comments (desc):
+>>> for project in projects_ordered_by_comment_count:
+...         print(f"Project: {project.title}, Number of Comments: {project.num_comments}")
+... 
+
+
+-----------------------------------------------------------------------
+
+
+
+---> reverse
+Query:
+>>> projects_ordered_by_end_date = Project.objects.order_by('end_date')
+>>> reversed_projects_by_end_date = projects_ordered_by_end_date.reverse()
+>>> for project in reversed_projects_by_end_date:
+...         print(f"Project: {project.title}, End Date: {project.end_date}")
+... 
+
+
+----------------------------------------------------------------
+
+
+
+---> distinct
+1) retrieve all unique project titles
+
+Query:
+>>> from models_task.models import Project
+>>> distinct_project_titles = Project.objects.values('title').distinct()
+>>> print("Distinct Project Titles:")
+Distinct Project Titles:
+>>> for title in distinct_project_titles:
+...         print(title['title'])
+... 
+
+
+
+--------------------------------------------
+
+
+---> values
+retrieve all projects but only include the title and start
+
+Query:
+>>> from models_task.models import Project
+>>> projects_values = Project.objects.values('title', 'start_date')
+>>> for project in projects_values:
+...         print(f"Title: {project['title']}, Start Date: {project['start_date']}")
+... 
+
+
+---------------------------------------------------------
+
+---> values_list
+get project titles for projects that are currently ongoing
+Query:
+
+>>> from datetime import date
+>>> ongoing_project_titles = Project.objects.filter(end_date__gt=date.today()).values_list('title', flat=True)
+>>> for title in ongoing_project_titles:
+...     print(title)
+... 
+
+
+----------------------------------------------------
+
+---> dates
+projects that started within a specific date range
+
+Query:
+>>> from datetime import timedelta
+>>> start_date = date.today() - timedelta(days=30)
+>>> end_date = date.today() 
+>>> recent_projects = Project.objects.filter(start_date__range=(start_date, end_date))
+>>> for project in recent_projects:
+...         print(project.title)
+... 
+
+------------------------------------------
+
+--->all
+
+Query:
+>>> from models_task.models import Task
+>>> all_tasks = Task.objects.all()
+>>> for task in all_tasks:
+...         print(f"Task ID: {task.id}, Title: {task.title}, Status: {task.status}")
+... 
+
+
+---------------------------------------------------
+
+
+
+---> union 
+combine the titles of tasks and projects into a single queryset.
+
+Query:
+>>> from models_task.models import Task, Project
+>>> task_titles = Task.objects.values('title')
+>>> project_titles = Project.objects.values('title')
+>>> combined_titles = task_titles.union(project_titles)
+>>> for title in combined_titles:
+...         print(title['title'])
+... 
+
+
+---------------------------------------------------------
+
+
+---> select_related
+Tasks with Related Project and Assignee
+Query:
+>>> from models_task.models import Task
+>>> tasks = Task.objects.select_related('project', 'assignee').all()
+>>> for task in tasks:
+...         assignee_username = task.assignee.username if task.assignee else 'No Assignee'
+...         print(f'Task: {task.title}, Project: {task.project.title}, Assignee: {assignee_username}')
+... 
+
+------------------------------------------------
+
+
+
+---> prefetch_related
+get the tasks along with related projects, assignees, and comments:
+Query
+>>> from models_task.models import Task
+>>> tasks = Task.objects.select_related('project', 'assignee').prefetch_related('comments')
+>>> for task in tasks:
+...         assignee_username = task.assignee.username if task.assignee else 'No Assignee'
+...         print(f"Task: {task.title}, Project: {task.project.title}, Assignee: {assignee_username}")
+...         for comment in task.comments.all():
+...               print(f"  Comment by {comment.author.username}: {comment.text}")
+... 
+
+
+
+-------------------------------------------
+
+--> extra()
+
+Query
+>>> tasks = Task.objects.extra(select={'upper_title': 'UPPER(title)'})
+>>> for task in tasks:
+...         print(f"Task: {task.title}, Upper Title: {task.upper_title}")
+... 
+
+----------------------------------------------
+
+
+---> defer
+use defer() to avoid loading the description field initially.
+Query:
+>>> from models_task.models import Project
+>>> projects = Project.objects.defer('description')
+>>> for project in projects:
+...         print(f"Project: {project.title}, Start Date: {project.start_date}")
+... 
+
+
+-------------------------------------------------------------------
+
+
+
+---> only
+use only() to retrieve just specific fields
+
+
+Query
+>>> from models_task.models import Project
+>>> projects = Project.objects.only('title', 'start_date')
+>>> for project in projects:
+...         print(f"Project: {project.title}, Start Date: {project.start_date}")
+... 
+
+------------------------------------------------------
+
+
+
+---> select_for_update
+want to safely change the status of a task without any risk of concurrent modifications
+>>> from django.db import transaction
+>>> from models_task.models import Task
+>>> with transaction.atomic():
+...         task = Task.objects.select_for_update().get(id=1)
+...         task.status = 'in_progress'
+...         task.save()
+
+-----------------------------------------
+
+
+
+---> raw
+Query:
+>>> from models_task.models import Task
+>>> tasks = Task.objects.raw(    """    SELECT models_task_task.id, models_task_task.title, COUNT(models_task_comment.id) as num_comments    FROM models_task_task    LEFT JOIN models_task_comment ON models_task_task.id = models_task_comment.task_id    GROUP BY models_task_task.id    """)
+>>> for task in tasks:
+...         print(task.title, task.num_comments)
+... 
+
+-------------------------------------------
+
+---> AND
+Query
+>>> from models_task.models import Task
+>>> tasks = Task.objects.raw(
+...     """
+...     SELECT * FROM models_task_task
+...     INNER JOIN models_task_profile ON models_task_task.assignee_id = models_task_profile.user_id
+...     WHERE models_task_task.status = 'open' 
+...     AND models_task_profile.role = 'developer'
+...     """
+... )
+>>> for task in tasks:
+...         print(task.title)
+... 
+Result:
+Center live other month customer a. 7
+Think when fight network. 81
+Various provide dinner after. 86
+Event majority apply better life. 98
+Answer whose away take west. 158
+Blood already lose ask deep increase. 172
+----------------------------------
+
+
+--> OR:
+
+>>> tasks = Task.objects.raw(
+...     """
+...     SELECT * FROM models_task_task
+...     INNER JOIN models_task_profile ON models_task_task.assignee_id = models_task_profile.user_id
+...     WHERE models_task_task.status = 'open' 
+...     OR models_task_profile.role = 'developer'
+...     """
+... )
+>>> 
+>>> for task in tasks:
+...     print(task.title)
+... 
+Collection sea other occur idea someone. 1
+Pretty book throughout southern. 6
+Center live other month customer a. 7
+Painting off produce modern marriage meet. 9
+You environmental although control doctor get good. 11
+Project happen summer. 12
+East finally owner. 15
+Be officer least cup fact. 24
+Since vote star reason. 28
+Be would sea report dark. 30
+Age anyone sound western moment attorney expect. 34
+On member you. 37
+Sister end sing but. 39
+Eat value turn culture section decision many. 41
+Clearly happy memory tend tend. 45
+Candidate gun world people buy. 47
+Tough country wrong action president. 53
+Left push suddenly able truth my minute. 54
+Surface recent Democrat consider southern north. 58
+Instead their high support visit him. 64
+Think when fight network. 81
+Until project music. 83
+Great pay him pay. 84
+Resource use race often. 85
+Various provide dinner after. 86
+Before part policy true trial computer indeed beat. 88
+Second next government early various address red my. 94
+Tell age question strategy add try dinner. 95
+While travel movie oil. 97
+Event majority apply better life. 98
+East sing land writer low. 99
+Top onto often outside fine six. 102
+General that their. 104
+Soldier off there power project. 108
+Its decide allow much arm attorney college. 115
+Story evidence fire subject appear no. 117
+Reality year social huge look. 119
+Cold source offer magazine wife hand. 124
+Never room and election ok. 125
+Audience future full though many. 132
+Lawyer box beyond sell may. 144
+Back career white peace. 146
+Avoid growth subject read top. 147
+Far level thought success practice measure buy indeed. 151
+President defense must reflect positive road. 153
+Area address church fall great anyone. 154
+Determine finally kind data specific campaign reveal. 155
+Government quite paper difference commercial their out. 157
+Answer whose away take west. 158
+Morning Mrs exactly successful hair. 159
+Life quite determine early view our threat. 161
+Huge argue stage nation yeah third quality economic. 165
+Report hope discover piece mention. 166
+Read we cultural. 167
+Blood already lose ask deep increase. 172
+Safe poor loss prevent knowledge evidence. 173
+Step watch understand threat while data child understand. 179
+Who treatment father around through lot support. 184
+Feel test yes when visit meet school. 186
+Whole dream deep. 187
+Language under election because. 191
+List away interview. 192
+Week accept its firm season. 200
+Late learn help just government cup. 1
+Middle teach tend. 5
+
+-------------------------
+
+
+---> XOR:
+>>> from django.db.models import Q
+>>> from models_task.models import Task
+>>> 
+>>> tasks = Task.objects.filter(
+...     (Q(status='open') & ~Q(assignee__profile__role='developer')) |
+...     (~Q(status='open') & Q(assignee__profile__role='developer'))
+... )
+>>> 
+>>> for task in tasks:
+...     print(task.title)
+... 
+
+
+---------------------
+
+---> get
+>>> from models_task.models import User
+>>> 
+>>> try:
+...     user = User.objects.get(username='john_doe')
+...     print(f'User found: {user.username}, Email: {user.email}')
+... except User.DoesNotExist:
+...     print('User not found.')
+... except User.MultipleObjectsReturned:
+...     print('Multiple users found.')
+... 
+User not found.
+
+--------------------------------
+
+---> Create:
+>>> from models_task.models import User
+>>> 
+>>> # Create and save a new user
+>>> user = User.objects.create(
+...     username='john_doe',
+...     email='john_doe@example.com',
+...     password='password123',  # Ensure this is hashed in production
+... )
+.username}, Email: {user.email}')
+>>> 
+>>> print(f'User created: {user.username}, Email: {user.email}')
+User created: john_doe, Email: john_doe@example.com
+------------------------------
+
+
+---> get or create
+get_or_create() method takes two primary arguments: defaults and the fields
+
+>>> from models_task.models import User
+>>> 
+>>> user, created = User.objects.get_or_create(
+...     username='john_doe',
+...     defaults={
+...         'email': 'john_doe@example.com',
+...         'password': 'password123'  
+...     }
+... )
+>>> 
+>>> if created:
+...     print(f'User created: {user.username}, Email: {user.email}')
+... else:
+...     print(f'User already exists: {user.username}')
+... 
+User already exists: john_doe
+
+------------------------------
+
+--->update_or_create
+update_or_create() method requires at least two arguments: the fields used for lookup and a dictionary of values to set
+
+>>> from models_task.models import User
+>>> 
+>>> # Update or create a user
+>>> user, created = User.objects.update_or_create(
+...     username='john_doe',  # Lookup field
+...     defaults={
+...         'email': 'john_doe@example.com',
+...         'password': 'password123'  # Ensure this is hashed in production
+...     }
+... )
+
+    print(f'User created: {user.username}, Email:>>> 
+>>> if created:
+...     print(f'User created: {user.username}, Email: {user.email}')
+... else:
+...     print(f'User updated: {user.username}, Email: {user.email}')
+... 
+User updated: john_doe, Email: john_doe@example.com
+
+
+
+------------------------------
+
+
+---> bulk_create
+
+>>> from models_task.models import Task
+>>> tasks = [
+...     Task(title='Task 1', description='Description for task 1', status='open', project_id=1, assignee_id=1),
+...     Task(title='Task 2', description='Description for task 2', status='open', project_id=1, assignee_id=2),
+...     Task(title='Task 3', description='Description for task 3', status='open', project_id=2, assignee_id=1),
+...     # Add more tasks as needed...
+... ]
+>>> 
+>>> Task.objects.bulk_create(tasks)
+[<Task: Task 1 - Open>, <Task: Task 2 - Open>, <Task: Task 3 - Open>]
+
+
+---------------------------------
+
+---> bulk_update
+
+
+
+>>> from models_task.models import Task
+>>> 
+>>> tasks_to_update = Task.objects.filter(status='open')
+>>> 
+>>> for task in tasks_to_update:
+...     task.status = 'completed'  # Update status
+...     task.description += ' - Updated'  # Modify description
+... 
+>>> Task.objects.bulk_update(tasks_to_update, ['status', 'description'])
+32
+
+
+-------------------------------------
+
+---> iterator
+iterator() method is used to retrieve large querysets efficiently by fetching results in smaller chunks
+
+>>> from models_task.models import Task
+>>> 
+>>> tasks = Task.objects.all().iterator()
+>>> 
+>>> for task in tasks:
+...     print(task.title)
+... 
+
+
+-------------------------------------------------------
+
+
+---> latest
+retrieve the most recently created task based on the created_at field
+
+>>> from models_task.models import Task
+>>> try:
+...     latest_task = Task.objects.latest('created_at')
+...     print(f'Latest Task: {latest_task.title}, Created At: {latest_task.created_at}')
+... except Task.DoesNotExist:
+...     print('No tasks found.')
+... 
+Latest Task: Task 3, Created At: 2024-11-01 14:51:00.777121+00:00
+
+---------------------------------------------------
+
+
+---> earliest
+earliest() method can be called on a queryset and requires the name of a field that contains date or datetime information
+
+>>> from models_task.models import Task
+>>> 
+>>> try:
+...     earliest_task = Task.objects.earliest('created_at')
+...     print(f'Earliest Task: {earliest_task.title}, Created At: {earliest_task.created_at}')
+... except Task.DoesNotExist:
+...     print('No tasks found.')
+... 
+Earliest Task: Key worker kind scientist., Created At: 2024-11-01 11:31:32.633752+00:00
+
+-------------------------------------------------------
+
+--->last
+
+>>> from models_task.models import Task
+>>> try:
+...     last_task = Task.objects.latest('created_at')
+...     print(f'Last Task: {last_task.title}, Created At: {last_task.created_at}')
+... except Task.DoesNotExist:
+...     print('No tasks found.')
+... 
+Last Task: Task 3, Created At: 2024-11-01 14:51:00.777121+00:00
+
+
+-------------------------------------------------
+
+
+--> contains
+
+>>> from models_task.models import Task
+>>> substring = 'determine'
+>>> 
+>>> tasks_with_urgent_title = Task.objects.filter(title__contains=substring)
+>>> 
+>>> for task in tasks_with_urgent_title:
+...     print(f'Task ID: {task.id}, Title: {task.title}')
+... 
+Task ID: 160, Title: Determine finally kind data specific campaign reveal. 155
+Task ID: 166, Title: Life quite determine early view our threat. 161
+Task ID: 202, Title: Morning goal determine south western rest front hot. 197
+
+-----------------------------
+
+---> delete 
+>>> from models_task.models import Task
+>>> 
+>>> task = Task.objects.get(title='Middle teach tend. 5')  # Replace with the appropriate ID
+Task ID: {task.title} has been deleted.')>>> 
+>>> task.delete()
+(3, {'models_task.Comment': 2, 'models_task.Task': 1})
+>>> 
+>>> print(f'Task ID: {task.title} has been deleted.')
+Task ID: Middle teach tend. 5 has been deleted.
+
+----------------------------
+
+
+---> explain
+
+
+>>> from models_task.models import Project
+>>> 
+>>> queryset = Project.objects.all()
+>>> 
+>>> query_plan = queryset.explain()
+>>> print(query_plan)
+2 0 0 SCAN models_task_project
+
+-------------------------
+
+
+---> exact
+
+>>> exact_title_projects = Project.objects.filter(title__exact='Programmable mission-critical portal 5')
+>>> 
+>>> for project in exact_title_projects:
+...     print(project)
+... 
+Programmable mission-critical portal 5
+
+---------------------------------------
+
+
+---> iexact
+
+>>> exact_title_projects = Project.objects.filter(title__iexact='Programmable mission-critical portal 5')
+>>> 
+>>> for project in exact_title_projects:
+...     print(project)
+... 
+Programmable mission-critical portal 5
+
+
+-----------------------------------
+
+
+---> in
+>>> titles_to_filter = ['Programmable mission-critical portal 5', 'Synergistic 6thgeneration paradigm 3']
+>>> 
+>>> matching_projects = Project.objects.filter(title__in=titles_to_filter)
+>>> 
+>>> for project in matching_projects:
+...     print(project)
+... 
+Synergistic 6thgeneration paradigm 3
+Programmable mission-critical portal 5
+
+----------------------------------
+
+---> gt 
+Greater than
+
+------------------------------------
+
+
+---> lt:
+less than
+
+-----------------------------------
+
+
+---> istartswith
+
+>>> matching_projects = Project.objects.filter(title__istartswith='d')
+>>> 
+>>> for project in matching_projects:
+...     print(project)
+... 
+Devolved transitional analyzer
+De-engineered transitional superstructure 3
+Digitized attitude-oriented structure 18
+Devolved incremental intranet 27
+Digitized motivating hub 32
+Decentralized 5thgeneration workforce 44
+Devolved context-sensitive ability 49
+Decentralized coherent open architecture 74
+Decentralized human-resource initiative 77
+Distributed 3rdgeneration neural-net 80
+Down-sized object-oriented Local Area Network 103
+Distributed interactive extranet 137
+Decentralized tertiary data-warehouse 145
+Distributed leadingedge knowledgebase 162
+Devolved optimizing knowledgebase 164
+Decentralized optimizing monitoring 165
+Distributed bottom-line architecture 170
+
+-------------------------------
+
+---> range
+
+>>> from datetime import datetime, timedelta
+>>> 
+>>> start_date = datetime.now() - timedelta(days=30)  
+>>> end_date = datetime.now()  
+
+>>> for task in recent_tasks:
+...     print(task)
+... 
+
+
+
+------------------------------------------------------------------
+
+
+---> isnull
+
+from models_task.models import *
+>>> profiles_without_picture = Profile.objects.filter(profile_picture__isnull=True)
+
+
+
+---------------------------------------
+
+---> regex
+>>> users_with_j = User.objects.filter(username__regex=r'^j.*')
+>>> print("Users whose username starts with 'j':")
+Users whose username starts with 'j':
+>>> for user in users_with_j:
+...     print(user.username)
+... 
+jibran
+joshuatorres
+joshua18
+jensengregory
+joelhess
+john73
+jonesmonique
+james31
+jacquelinewilliams
+jennifer10
+jamespatterson
+joshua06
+juarezjustin
+james62
+johndavid
+jonesrichard
+jscott
+james23
+joanna29
+julia05
+john52
+joseph92
+jason73
+james92
+jonesmonica7553
+jonesaaron8647
+johncarroll0803
+jacob185514
+julie254838
+jodijones8275
+jordanrebecca6149
+joshuawiggins8044
+jamie458525
+jasmine651987
+jenniferaguirre3439
+julie755449
+jacqueline144354
+jeanwagner4180
+jamiedavis6062
+josephjeffrey1799
+jeffrey670271
+jonessharon5464
+jessebailey7502
+john_doe
+
+------------------------------------
+
+
+---> avg
+
+>>> from models_task.models import *
+>>> from django.db.models import Avg
+>>> tasks_with_avg_comments = Task.objects.annotate(avg_comments=Avg('comments')).values('title', 'avg_comments')
+>>> 
+>>> print("\nAverage number of comments per task:")
+
+Average number of comments per task:
+>>> for task in tasks_with_avg_comments:
+...     print(f"Task: {task['title']}, Average Comments: {task['avg_comments']}")
+... 
+
+
+--------------------------------------------------
+
+---> max
+
+ max_end_date_project = Project.objects.aggregate(max_end_date=Max('end_date'))
+>>> 
+>>> print(f"Maximum Project End Date: {max_end_date_project['max_end_date']}")
+Maximum Project End Date: 2025-03-29
+
+-----------------------------------------------------------
+
+---> min
+min_start_date_project = Project.objects.aggregate(min_start_date=Min('start_date'))
+>>> 
+>>> print(f"Minimum Project Start Date: {min_start_date_project['min_start_date']}")
+Minimum Project Start Date: 2023-11-03
+
+-------------------------------------------------------
+
+---> year:
+from models_task.models import Project
+projects_2023 = Project.objects.filter(start_date__year=2023)
+for project in projects_2023:
+    print(f"Project: {project.title} - Start Date: {project.start_date}")
+
+-------------------------------------------------------------
+
+
+---> month:
+from models_task.models import Project
+projects_march = Project.objects.filter(start_date__month=3)
+for project in projects_march:
+    print(f"Project: {project.title} - Start Date: {project.start_date}")
+
+--------------------------------------------------------------
+
+
+---> day:
+from models_task.models import Project
+projects_day_15 = Project.objects.filter(start_date__day=15)
+for project in projects_day_15:
+    print(f"Project: {project.title} - Start Date: {project.start_date}")
+
+------------------------------------------------------------------
+
+---> quarter:
+from models_task.models import Task
+tasks_q3 = Task.objects.annotate(quarter=ExtractQuarter('created_at')).filter(quarter=3)
+for task in tasks_q3:
+    print(f"Task: {task.title} - Created At: {task.created_at}")
+
+--------------------------------------------------------------------
+
+---> hour:
+Get tasks created at 10 AM
+
+from django.db.models.functions import ExtractHour
+from models_task.models import Task
+tasks_10am = Task.objects.annotate(hour=ExtractHour('created_at')).filter(hour=10)
+for task in tasks_10am:
+    print(f"Task: {task.title} - Created At: {task.created_at}")
+
+-----------------------------------------------------------------
+
+---> sum:
+Sum of project durations
+
+from django.db.models import F, Sum
+from datetime import timedelta
+from models_task.models import Project
+project_durations = Project.objects.annotate(duration=F('end_date') - F('start_date')).aggregate(total_duration=Sum('duration'))
+print("Total project duration (in days):", project_durations['total_duration'].days)
+
+------------------------------------------------------------------
+
+---> FilteredRelation
+# Retrieve projects with a count of "In Progress" tasks
+
+
+from django.db.models import Count, Q, F
+from django.db.models import FilteredRelation
+from models_task.models import Project, Task
+projects_with_in_progress_tasks = Project.objects.annotate(
+    in_progress_tasks=FilteredRelation(
+        'tasks', condition=Q(tasks__status='working')
+    )
+).annotate(
+    in_progress_task_count=Count('in_progress_tasks')
+)
+for project in projects_with_in_progress_tasks:
+    print(f"Project: {project.title}, In Progress Tasks: {project.in_progress_task_count}")
+
+
+
+
+
+
+
+
+
