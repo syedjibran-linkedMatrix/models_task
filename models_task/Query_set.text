@@ -1392,13 +1392,24 @@ Programmable mission-critical portal 5
 ----------------------------------
 
 ---> gt 
-Greater than
+from models_task.models import Project
+from datetime import date
+projects_after_jan = Project.objects.filter(start_date__gt=date(2023, 1, 1))
+for project in projects_after_jan:
+    print(f"Project: {project.title}, Start Date: {project.start_date}")
+
 
 ------------------------------------
 
 
 ---> lt:
-less than
+from models_task.models import Project
+from datetime import date
+
+projects_ended_before_jan = Project.objects.filter(end_date__lt=date(2023, 1, 1))
+
+for project in projects_ended_before_jan:
+    print(f"Project: {project.title}, End Date: {project.end_date}")
 
 -----------------------------------
 
